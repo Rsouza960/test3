@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="stylesheet" href="../estilos/styles2.css">
+    
+</head>
+<body>
+    <header>
+        
+        <div class="container-grid cabecalho">
+            <a href="../index.html"><img src="../png/logo.png" alt="Logo do site" ></a>
+            <input class="search-box"  type="search">
+            <nav id="menu" class="menu">
+              
+                <div class="container-grid entrar">
+                <a href="#"><img src="../png/carrinho.png" height="75px" ></a>
+                <a class="enter" href="">entrar</a>
+            </div>
+            </nav>
+            <nav id="pc-gamers" class="pc-gamers">
+                <a href="#"><img src="../img/pc.jpg"height="149px" width="136px"><p>PC GAMER RYZEN 5 5600G 3060 TI 12GB, 16GB RAM <br>R$5.499,99</p> </a>
+                <a href="#"><img src="../img/pc.jpg"height="149px" width="136px"><p>PC GAMER RYZEN 5 5600G 3060 TI 12GB, 16GB RAM <br>R$5.499,99</p> </a>
+                <a href="#"><img src="../img/pc.jpg"height="149px" width="136px"><p>PC GAMER RYZEN 5 5600G 3060 TI 12GB, 16GB RAM <br>R$5.499,99</p></a>
+                <a href="#"><img src="../img/pc.jpg"height="149px" width="136px"><p>PC GAMER RYZEN 5 5600G 3060 TI 12GB, 16GB RAM <br>R$5.499,99</p></a>
+                </nav>
+                <nav id="consoles" class="consoles">
+                    <a href="#"><img src="../img/ps5.webp"height="149px" width="136px"><p>Playstation 5 SSD 800GB <br>4.999,99</p> </a>
+                    <a href="#"><img src="../img/ps5.webp"height="149px" width="136px"><p>Playstation 5 SSD 800GB <br>4.999,99</p> </a>
+                    <a href="#"><img src="../img/ps5.webp"height="149px" width="136px"><p>Playstation 5 SSD 800GB <br>4.999,99</p> </a>
+                    <a href="#"><img src="../img/ps5.webp"height="149px" width="136px"><p>Playstation 5 SSD 800GB <br>4.999,99</p> </a>
+                    </nav>
+
+
+        </div>
+        <div class="barras">
+            <a href="#" onclick="mostrarDepartamentos()"><img src="../png/bars.svg" width="38px"></a>
+            <p>Departamentos</p>
+            
+            <nav id="departamentos" class="departamentos">
+                <a href="#" onclick="mostrarPcgamer()">PC Gamers ></a>
+                <a href="#" onclick="mostrarConsoles()">Consoles ></a>
+                <a href="#">Perifericos ></a>
+                <a href="#">Jogos ></a>
+            </nav>
+            </div>
+    </header>
+    <section class="corpo-login">
+    <div id="caixa-login">
+        <div class="usuario">
+    <h1> Usuario</h1>
+    <input type="e-mail" placeholder="insira seu usuario" required>
+</div>
+    <div class="caixa-senha">
+        <h1>Senha</h1>
+        <input type="password" placeholder="insira sua senha" required>
+
+    </div>
+    <div class="entrar-cadastrar">
+        <input class="btn-enter" type="button" value="Entrar"></input>
+        <input class="btn-register" type="button"value="cadastrar"></input>
+    </div>
+
+    </div>
+</section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="../script/jquery-3.6.3.js"></script>
+<script src="../script/script.js"></script>
+</body>
+</html>

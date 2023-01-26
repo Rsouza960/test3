@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Galindo&family=Goldman&family=Inria+Sans&family=Inter&family=Roboto&family=Titillium+Web&display=swap');
+.corpo-login{
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 810px;
+    background-color:#2b2525;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#caixa-login{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color:#b4aeae;
+    width: 1920px;
+    height: 810px;
+
+}
+.usuario{
+    background-color:#2b2525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 180px;
+    width: 20%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    
+}
+.usuario input{
+    margin-top: 15px;
+    height: 45px;
+    width: 95%;
+    border-radius: 10px;
+}
+.usuario h1{
+    font-family: "inria sans";
+    color:aliceblue;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+.caixa-senha{
+    background-color:#2b2525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 180px;
+    width: 20%;
+
+
+}
+.caixa-senha h1{
+    font-family: "inria sans";
+    color:aliceblue;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.caixa-senha input{
+    margin-top: 15px;
+   height:  45px;
+   width: 95%;
+   border-radius: 10px;
+}
+.entrar-cadastrar{
+    background-color: #2b2525;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 20%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+.entrar-cadastrar input{
+    margin-top: 40px;
+   width: 40%;
+    height: 35px;
+    text-transform: uppercase;
+background-color: #7f3232;
+color: aliceblue;
+border-radius: 10px;
+border-color: #7f3232;
+font-family: "inria sans";
+font-size: 16px;
+cursor:pointer;
+ 
+}
+
+.btn-enter:hover{
+    background-color: aliceblue;
+    color: #7f3232;
+    border-color: aliceblue;
+    transition: 0.5s;
+}
+.btn-register:hover{
+    background-color: aliceblue;
+    color: #7f3232;
+    border-color: aliceblue;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:1920px){
+    
+    .corpo-login{
+        width: 100%;
+    }
+    #caixa-login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+    
+}
+@media screen and (max-width:1820px){
+    
+    .corpo-login{
+        width: 100%;
+    }
+    #caixa-login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+    
+}
+@media screen and (max-width:1620px){
+    
+    .corpo-login{
+        width: 100%;
+    }
+    #caixa-login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+    
+}
+@media screen and (max-width:1020px){
+    
+    .corpo-login{
+        width: 100%;
+    }
+    #caixa-login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+    .entrar-cadastrar input{
+        display: flex;
+        font-size: 10px;
+        text-align: center;
+        font-family: "inria sans";
+
+        
+    
+}
+}
