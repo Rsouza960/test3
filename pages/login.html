@@ -14,7 +14,8 @@
         
         <div class="container-grid cabecalho">
             <a href="../index.html"><img src="../png/logo.png" alt="Logo do site" ></a>
-            <input class="search-box"  type="search">
+            <div id="search-box">
+                <input class="search-box"  type="search" ><button class="lupinha" type="submit"> <img src="../png/lupinha.svg"></button></div>
             <nav id="menu" class="menu">
               
                 <div class="container-grid entrar">
@@ -53,11 +54,11 @@
     <div id="caixa-login">
         <div class="usuario">
     <h1> Usuario</h1>
-    <input type="e-mail" placeholder="insira seu usuario" required>
+    <input id="email" type="e-mail" placeholder="insira seu usuario" required>
 </div>
     <div class="caixa-senha">
         <h1>Senha</h1>
-        <input type="password" placeholder="insira sua senha" required>
+        <input id="senha" type="password" placeholder="insira sua senha" required>
 
     </div>
     <div class="entrar-cadastrar">

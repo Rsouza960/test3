@@ -69,8 +69,22 @@ header{
 
    }
 
+   @keyframes animacao-departamentos{
+    from{
+    height: 200px;
+    }
+    to{
+height: 600px;
+    }
+   }
+
    #departamentos{
     display: none;
+    animation-name: animacao-departamentos;
+    animation-duration: 0.8s;
+ 
+    
+    
     
    }
    .departamentos{
@@ -87,7 +101,14 @@ header{
    
     
    }
-
+@keyframes animacao-itens{
+    from{
+        width:280px ;
+    }
+    to{
+        width: 350px;
+    }
+}
    #pc-gamers{
     display: none;
     position: absolute;
@@ -120,6 +141,8 @@ header{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    animation-name: animacao-itens;
+    animation-duration: 0.5s;
    
    }
 
@@ -159,6 +182,8 @@ header{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    animation-name: animacao-itens;
+    animation-duration: 0.5s;
    
    }
    .consoles p{
@@ -245,6 +270,7 @@ border-top-left-radius: 15px;
 .banner-re{
     background-image: url(../img/banner-re.png);
 }
+
 .banner-fs{
     background-image: url(../img/banner-fs.png);
 }
@@ -257,23 +283,27 @@ border-top-left-radius: 15px;
 
 
 .conteudo-banner h1{
-    color: rgb(121, 23, 23);
+    color: white;
     font-family:"goldman";
     font-size: 35px;
-    align-content: center;
     font-weight: 35px;
-    
- 
-  
+    background-color: #7f3232;
+    text-align: center;
+    border-radius: 10px;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .conteudo-banner p{
-    color: #7f3232;
+    color: whitesmoke;
     font-family:"goldman";
     font-size: 25px;
     font-weight: 35px;
-    
+  
     box-align:center;
   margin-left:35px ;
 
@@ -282,29 +312,31 @@ border-top-left-radius: 15px;
 
 .conteudo-banner a{
     padding: 15px ;
-    background-color: #7f3232;
+    background-image:url(../png/bgcolorbtn.png);
+    background-position: right;
     font-size: 25px;
     font-weight: 35px;
     color: white;
     font-family:"goldman";
     text-decoration: none;
     text-transform: uppercase;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+   
+    width: 190px;
+    text-align: center;
 
 }
 .conteudo-banner a:hover{
-  background-color: whitesmoke;
+  background-position:left  ;
   color: #7f3232;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
+ 
 
 
 }
 .conteudo-banner{
-  
+   background-color: #7f3232;
     margin-right: 125px;
-    width: 495px;
+    width: 500px;
     height: 290px;
     display: flex;
     flex-direction: column;
@@ -377,6 +409,7 @@ border-top-left-radius: 15px;
     justify-content: space-around;
     background-color: #B4aeae;
     align-content: center;
+    
   
     
 }
